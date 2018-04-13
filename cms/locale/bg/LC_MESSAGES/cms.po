@@ -1,15 +1,16 @@
 # Bulgarian translations for CMS.
-# Copyright © 2010-2015 CMS authors
+# Copyright © 2017 CMS authors
 # This file is distributed under the same license as CMS.
-# Hristo Stoyanov <htstoyanov@gmail.com>, 2015.
+# Dobrin Bashev <dobrin.bashev@gmail.com>, 2017.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-02 14:20+0200\n"
-"PO-Revision-Date: 2015-01-04 15:22+0200\n"
-"Last-Translator: Hristo Stoyanov <htstoyanov@gmail.com>\n"
+"POT-Creation-Date: 2017-08-16 13:48+0300\n"
+"PO-Revision-Date: 2017-08-22 16:00+0200\n"
+"Last-Translator: Dobrin Bashev <dobrin.bashev@gmail.com>\n"
 "Language-Team: Bulgarian\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -17,17 +18,21 @@ msgstr ""
 "Content-Transfer-Encoding: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#. translators: decimal mark in fractions (e.g., in "3.14")
+msgid "."
+msgstr ""
+
 msgid "Compilation succeeded"
 msgstr "Успешно компилиране"
 
 msgid "Your submission successfully compiled to an excutable."
-msgstr "Вашето решение успешно се компилира до програма."
+msgstr "Вашето решение успешно се компилира до изпълним файл."
 
 msgid "Compilation failed"
 msgstr "Неуспешно компилиране"
 
 msgid "Your submission did not compile correctly."
-msgstr "Вашето решение не се компилира успешно."
+msgstr "Вашето решение не се компилира правилно."
 
 msgid "Compilation timed out"
 msgstr "Превишено време за компилиране"
@@ -35,43 +40,44 @@ msgstr "Превишено време за компилиране"
 msgid ""
 "Your submission exceeded the time limit while compiling. This might be "
 "caused by an excessive use of C++ templates, for example."
-msgstr ""
+msgstr "Вашето решение превиши времето за компилиране. Това може да бъде причинено от прекомерна употреба на C++ темплейти."
 
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Compilation killed with signal %s (could be triggered by violating memory "
 "limits)"
-msgstr ""
-"Компилирането беше прекратено със сигнал %d (може да бъде причинено от "
-"нарушаване на ограниченията за памет)"
+msgstr "Компилирането беше прекратено със сигнал %s (вероятно причинено от нарушаване на ограниченията за памет)"
 
 msgid ""
 "Your submission was killed with the specified signal. Among other things, "
 "this might be caused by exceeding the memory limit for the compilation, and "
 "in turn by an excessive use of C++ templates, for example."
-msgstr ""
-"Компилирането на вашето решение беше прекратено с указания сигнал. Това може да "
-"бъде причинено от превишаване на ограниченията за памет на компилирането, което "
-"от своя страна да е резултат от прекомерна употреба на на C++ темплейти."
+msgstr "Компилирането на вашето решение беше прекратено с указания сигнал. Това може да бъде причинено от превишаване на ограниченията за памет повреме на компилацията, което от своя страна да е резултат от прекомерна употреба на на C++ темплейти."
 
 msgid "Output is correct"
 msgstr "Верен отговор"
 
 msgid "Your submission ran and gave the correct answer"
-msgstr "Вашето решение тръгна и даде верен отговор"
+msgstr "Вашето решение се изпълни и даде верен отговор"
+
+msgid "Output is partially correct"
+msgstr "Частично верен отговор"
+
+msgid "Your submission ran and gave the partially correct answer"
+msgstr "Вашето решение се изпълни и даде частично верен отговор"
 
 msgid "Output isn't correct"
 msgstr "Грешен отговор"
 
 msgid "Your submission ran, but gave the wrong answer"
-msgstr "Вашето решение тръгна, но даде грешен отговор"
+msgstr "Вашето решение се изпълни, но даде грешен отговор"
 
 #, python-format
 msgid "Evaluation didn't produce file %s"
-msgstr "Оценката не създаде файл %s"
+msgstr "Изпълнението не създаде файл %s"
 
 msgid "Your submission ran, but did not write on the correct output file"
-msgstr "Вашето решение тръгна, но не записа в правилния изходен файл"
+msgstr "Вашето решение се изпълни, но не записа в правилния изходен файл"
 
 msgid "Execution timed out"
 msgstr "Превишено време за изпълнение"
@@ -80,64 +86,57 @@ msgid "Your submission used too much CPU time."
 msgstr "Вашето решение използва твърде много процесорно време."
 
 msgid "Execution timed out (wall clock limit exceeded)"
-msgstr ""
+msgstr "Превишено време за изпълнение (времевата граница е надвишена)"
 
 msgid ""
 "Your submission used too much total time. This might be triggered by "
 "undefined code, or buffer overflow, for example. Note that in this case the "
 "CPU time visible in the submission details might be much smaller than the "
 "time limit."
-msgstr ""
+msgstr "Вашето решение изпозва твърде много общо време. Това може да бъде причинено от неопределен код или превишаване на лимита на буферите. Ако това е причината, отбележете, че показанто използвано процесорно време в детайлите на решението може да бъде по-малко от лимита за време."
 
 #, python-format
 msgid ""
 "Execution killed with signal %d (could be triggered by violating memory "
 "limits)"
-msgstr ""
-"Изпълнението беше прекратено със сигнал %d (може да бъде причинено от "
-"нарушаване на ограниченията за памет)"
+msgstr "Изпълнението беше прекратено със сигнал %d (вероятно причинено от нарушаване на ограниченията за памет)"
 
 msgid ""
 "Your submission was killed with the specified signal. Among other things, "
 "this might be caused by exceeding the memory limit. Note that if this is the "
 "reason, the memory usage visible in the submission details is the usage "
 "before the allocation that caused the signal."
-msgstr ""
-"Изпълнението на вашето решение беше прекратено с указания сигнал. Това може да"
-"бъде причинено от излизане извън ограниченията за памет. Ако това е причината,"
-"отбележете, че показаната използвана памет в детайлите на решението е от преди"
-"заделянето на памет, което е предизвикало сигнала."
+msgstr "Изпълнението на вашето решение беше прекратено с указания сигнал. Това може да бъде причинено от излизане извън ограниченията за памет. Ако това е причината, отбележете, че показаната използвана памет в детайлите на решението е от преди заделянето на памет, което е предизвикало сигнала."
 
 #, python-format
 msgid "Execution killed because of forbidden syscall %s"
-msgstr "Изпълнението е прекратено поради използването на забранена системна функция"
+msgstr "Изпълнението беше прекратено поради използването на забранената системна функция %s"
 
 msgid ""
 "Your submission was killed because it tried to use the forbidden syscall "
 "specified in the message."
-msgstr ""
-"Изпълнението на програмата беше прекратено, защото тя се опита да използва"
-"забранената системна функция указана в съобщението."
+msgstr "Изпълнението на вашата програмата беше прекратено, защото тя се опита да използва забранената системна функция указана в съобщението."
 
 msgid "Execution killed because of forbidden file access"
-msgstr ""
-"Изпълнението на вашата програма беше прекратено поради забранен достъп"
-"до файлове"
+msgstr "Изпълнението беше прекратено поради достъп до забранен файл"
 
 msgid ""
 "Your submission was killed because it tried to read or write a forbidden "
 "file."
-msgstr ""
+msgstr "Вашето решение беше прекратено заради опит за четене или записване от или в забранен файл."
 
 msgid "Execution failed because the return code was nonzero"
-msgstr "Изпълнението се провали, защото програмата върна ненулев резултат."
+msgstr "Изпълнението се провали, защото програмата върна ненулев системен код"
 
 msgid ""
 "Your submission failed because it exited with a return code different from 0."
-msgstr ""
+msgstr "Вашето решение се провали, защото върна системен код, различен от 0."
 
 msgid "N/A"
 msgstr "Неизвестно"
+
+msgid "Score details temporarily unavailable."
+msgstr "Някои детайли са временно недостъпни."
 
 #, python-format
 msgid "Subtask %d"
@@ -171,207 +170,10 @@ msgid "Execution completed successfully"
 msgstr "Изпълнението завърши успешно"
 
 msgid "No compilation needed"
-msgstr "Не е необходимо компилиране"
+msgstr "Няма нужда от компилация"
 
 msgid "File not submitted"
 msgstr "Файлът не е предаден"
-
-msgid "Question received"
-msgstr "Въпросът е получен"
-
-msgid ""
-"Your question has been received, you will be notified when it is answered."
-msgstr "Вашият въпрос беше получен, ще бъдете уведомени, когато имате отговор."
-
-#, python-format
-msgid ""
-"You have reached the maximum limit of at most %d submissions among all tasks."
-msgstr ""
-"Достигнахте максималния лимит от най-много %d изпращания на решения на "
-"всички задачи."
-
-#, python-format
-msgid ""
-"You have reached the maximum limit of at most %d submissions on this task."
-msgstr ""
-
-msgid "Too many submissions!"
-msgstr "Твърде много изпращания на решение!"
-
-#, python-format
-msgid ""
-"Among all tasks, you can submit again after %d seconds from last submission."
-msgstr ""
-
-#, python-format
-msgid ""
-"For this task, you can submit again after %d seconds from last submission."
-msgstr ""
-
-msgid "Submissions too frequent!"
-msgstr "Твърде чести изпращания на решение!"
-
-msgid "Invalid submission format!"
-msgstr "Невалиден формат на решението!"
-
-msgid "Please select the correct files."
-msgstr "Моля изберете правилните файлове."
-
-msgid "Invalid archive format!"
-msgstr "Невалиден формат на архива!"
-
-msgid "The submitted archive could not be opened."
-msgstr "Това решение не може да бъде отворено."
-
-msgid "Cannot recognize submission's language."
-msgstr "Непознат език на решението."
-
-msgid "All sources must be in the same language."
-msgstr "Всички кодове трябва да бъдат на един и същи език."
-
-#, python-format
-msgid "Language %s not allowed in this contest."
-msgstr "Езикът %s не се допуска в това състезание."
-
-msgid "Invalid submission!"
-msgstr "Невалидно предадено решение!"
-
-msgid "Submission too big!"
-msgstr "Изпратеното решение е твърде голямо!"
-
-#, python-format
-msgid "Each source file must be at most %d bytes long."
-msgstr "Всеки файл с код трябва да бъде най-много %d байта голям."
-
-msgid "Submission storage failed!"
-msgstr "Съхраняването на решение се провали!"
-
-msgid "Please try again."
-msgstr "Моля опитайте отново."
-
-msgid "Submission received"
-msgstr "Решението получено"
-
-msgid "Your submission has been received and is currently being evaluated."
-msgstr "Вешето решение беше получено и бива оценено в момента."
-
-msgid "Token request discarded"
-msgstr ""
-
-msgid "Your request has been discarded because you have no tokens available."
-msgstr ""
-
-msgid ""
-"Your request has been discarded because you already used a token on that "
-"submission."
-msgstr ""
-
-msgid "Token request received"
-msgstr ""
-
-msgid "Your request has been received and applied to the submission."
-msgstr ""
-
-msgid "Compiling..."
-msgstr "Компилиране..."
-
-msgid "details"
-msgstr "детайли"
-
-msgid "Evaluating..."
-msgstr "Тестване..."
-
-msgid "Scoring..."
-msgstr "Оценяване..."
-
-msgid "Evaluated"
-msgstr "Оценено"
-
-#, python-format
-msgid "You have reached the maximum limit of at most %d tests among all tasks."
-msgstr ""
-
-#, python-format
-msgid "You have reached the maximum limit of at most %d tests on this task."
-msgstr ""
-
-msgid "Too many tests!"
-msgstr "Твърде много тестове!"
-
-#, python-format
-msgid "Among all tasks, you can test again after %d seconds from last test."
-msgstr ""
-
-#, python-format
-msgid "For this task, you can test again after %d seconds from last test."
-msgstr ""
-
-msgid "Tests too frequent!"
-msgstr "Твърде често тестване!"
-
-msgid "Invalid test format!"
-msgstr "Невалиден формат на теста!"
-
-msgid "Cannot recognize test's language."
-msgstr "Езикът на теста не може да бъде разпознат."
-
-msgid "Invalid test!"
-msgstr "Невалиден тест!"
-
-msgid "Test too big!"
-msgstr "Програмата за тестване е твърде голяма!"
-
-msgid "Input too big!"
-msgstr "Входът е твърде голям!"
-
-#, python-format
-msgid "The input file must be at most %d bytes long."
-msgstr "Входният файл може да бъде най-много %d байта."
-
-msgid "Test storage failed!"
-msgstr "Съхраняватено на тестове се провали!"
-
-msgid "Test received"
-msgstr "Тестът е получен"
-
-msgid "Your test has been received and is currently being executed."
-msgstr "Вашият тест беше получен и сега се изпълнява."
-
-msgid "Executing..."
-msgstr "Изпълняване"
-
-msgid "Executed"
-msgstr "Изпълнено"
-
-#, python-format
-msgid "{seconds:0.3f} s"
-msgstr ""
-
-msgid "Too many print jobs!"
-msgstr "Твърде много задачи за принтиране!"
-
-#, python-format
-msgid "You have reached the maximum limit of at most %d print jobs."
-msgstr ""
-
-msgid "Invalid format!"
-msgstr "Невалиден формат!"
-
-msgid "File too big!"
-msgstr "Файлът е твърде голям!"
-
-#, python-format
-msgid "Each file must be at most %d bytes long."
-msgstr ""
-
-msgid "Print job storage failed!"
-msgstr ""
-
-msgid "Print job received"
-msgstr ""
-
-msgid "Your print job has been received."
-msgstr ""
 
 msgid "%Y-%m-%d"
 msgstr ""
@@ -384,6 +186,9 @@ msgstr ""
 
 msgid "loading..."
 msgstr "зареждане..."
+
+msgid "unknown"
+msgstr "неизвестен"
 
 #, python-format
 msgid "%d second"
@@ -411,120 +216,346 @@ msgstr[1] "%d дни"
 
 #, python-format
 msgid "%s and %s"
-msgstr "%d и %d"
+msgstr "%s и %s"
 
 #, python-format
 msgid "more than %s"
 msgstr "повече от %s"
 
 msgid "contest-token"
-msgstr ""
+msgstr "жетон за цялото състезание"
 
 msgid "contest-tokens"
-msgstr ""
+msgstr "жетона/и(те) за цялото състезание"
 
 msgid "task-token"
-msgstr ""
+msgstr "жетон за определена/та задача"
 
 msgid "task-tokens"
-msgstr ""
+msgstr "жетона/и(те) за определена/та задача"
 
 msgid "token"
-msgstr ""
+msgstr "жетон"
 
 msgid "tokens"
-msgstr ""
+msgstr "жетона/и(те)"
 
 #, python-format
 msgid "You don't have %(type_pl)s available for this task."
-msgstr ""
+msgstr "Вие не разполагате с налични %(type_pl)s за тази задача."
 
 #, python-format
 msgid "You have an infinite number of %(type_pl)s for this task."
-msgstr ""
+msgstr "Вие разполагате с неограничен брой %(type_pl)s за тази задача."
 
 #, python-format
 msgid "You start with no %(type_pl)s."
-msgstr ""
+msgstr "Вие започвате без %(type_pl)s."
 
 #, python-format
 msgid "You start with one %(type_s)s."
 msgid_plural "You start with %(gen_initial)d %(type_pl)s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Вие започвате с един %(type_s)s."
+msgstr[1] "Вие започвате с %(gen_initial)d %(type_pl)s."
 
 #, python-format
 msgid "Every minute "
 msgid_plural "Every %(gen_interval)g minutes "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Всяка минута "
+msgstr[1] "На всеки %(gen_interval)g минути "
 
 #, python-format
 msgid "you get another %(type_s)s, "
 msgid_plural "you get %(gen_number)d other %(type_pl)s, "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "вие получавате нов %(type_s)s, "
+msgstr[1] "вие получавате %(gen_number)d нови %(type_pl)s, "
 
 #, python-format
 msgid "up to a maximum of one %(type_s)s."
 msgid_plural "up to a maximum of %(gen_max)d %(type_pl)s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "докато достигнете лимита от най-много един %(type_s)s."
+msgstr[1] "докато достигнете лимита от най-много %(gen_max)d %(type_pl)s."
 
 #, python-format
 msgid "you get another %(type_s)s."
 msgid_plural "you get %(gen_number)d other %(type_pl)s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "вие получавате нов %(type_s)s."
+msgstr[1] "вие получавате %(gen_number)d нови %(type_pl)s."
 
 #, python-format
 msgid "You don't get other %(type_pl)s."
-msgstr ""
+msgstr "Вие не получавате нови %(type_pl)s."
 
 #, python-format
 msgid "You can use a %(type_s)s every second "
 msgid_plural "You can use a %(type_s)s every %(min_interval)g seconds "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Вие можете да изпозвате %(type_s)s всяка секунда "
+msgstr[1] "Вие можете да изпозвате %(type_s)s на всеки %(min_interval)g секунди "
 
 #, python-format
 msgid "and no more than one %(type_s)s in total."
 msgid_plural "and no more than %(max_number)d %(type_pl)s in total."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "и не повече от един %(type_s)s общо."
+msgstr[1] "и не повече от %(max_number)d %(type_pl)s общо."
 
 #, python-format
 msgid "You can use a %(type_s)s every second."
 msgid_plural "You can use a %(type_s)s every %(min_interval)g seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Вие можете да изпозвате %(type_s)s всяка секунда."
+msgstr[1] "Вие можете да изпозвате %(type_s)s на всеки %(min_interval)g секунди."
 
 #, python-format
 msgid "You can use no more than one %(type_s)s in total."
 msgid_plural "You can use no more than %(max_number)d %(type_pl)s in total."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Вие не можете да изпозвате повече от един %(type_s)s общо."
+msgstr[1] "Вие не можете да изпозвате повече %(max_number)d %(type_pl)s общо."
 
 msgid "You have no limitations on how you use them."
+msgstr "Вие нямате ограничения как да ги изпозвате."
+
+msgid "Question too big!"
+msgstr "Въпросът е твърде голям!"
+
+msgid "You have reached the question length limit."
+msgstr "Вие достигнахте ограничението за дължина на въпроса."
+
+msgid "Question received"
+msgstr "Въпросът е получен"
+
+msgid ""
+"Your question has been received, you will be notified when it is answered."
+msgstr "Вашият въпрос беше получен и ще бъдете уведомени, когато имате отговор."
+
+msgid "Too many print jobs!"
+msgstr "Твърде много задачи за принтиране!"
+
+#, python-format
+msgid "You have reached the maximum limit of at most %d print jobs."
+msgstr "Вие достагнахте максималния лимит от най-много %d задачи за принтиране."
+
+msgid "Invalid format!"
+msgstr "Невалиден формат!"
+
+msgid "Please select the correct files."
+msgstr "Моля изберете правилните файлове."
+
+msgid "File too big!"
+msgstr "Файлът е твърде голям!"
+
+#, python-format
+msgid "Each file must be at most %d bytes long."
+msgstr "Всеки файл трябва да бъде с големина най-много %d байта."
+
+msgid "Print job storage failed!"
+msgstr "Запазването на задачата за принтиране се провали!"
+
+msgid "Please try again."
+msgstr "Моля опитайте отново."
+
+msgid "Print job received"
+msgstr "Задачата за принтиране е получена"
+
+msgid "Your print job has been received."
+msgstr "Вашата задача за принтиране беше получена."
+
+#, python-format
+msgid ""
+"You have reached the maximum limit of at most %d submissions among all tasks."
+msgstr "Достигнахте максималния лимит от най-много %d предадени решения по всички задачи."
+
+#, python-format
+msgid ""
+"You have reached the maximum limit of at most %d submissions on this task."
+msgstr "Достигнахте максималния лимит от най-много %d предадени решения по тази задача."
+
+msgid "Too many submissions!"
+msgstr "Твърде много предадени решения!"
+
+#, python-format
+msgid ""
+"Among all tasks, you can submit again after %d seconds from last submission."
+msgstr "Относно всички задачи, вие можете да изпратите решение отново, %d секунди след последното."
+
+#, python-format
+msgid ""
+"For this task, you can submit again after %d seconds from last submission."
+msgstr "Относно тази задача, вие можете да изпратите решение отново, %d секунди след последното."
+
+msgid "Submissions too frequent!"
+msgstr "Твърде чести изпращания на решение!"
+
+msgid "Invalid submission format!"
+msgstr "Невалиден формат на решението!"
+
+msgid "Invalid archive format!"
+msgstr "Невалиден формат на архива!"
+
+msgid "The submitted archive could not be opened."
+msgstr "Изпратеният архив не може да бъде отворен."
+
+msgid "Cannot recognize the submission language."
+msgstr "Непознат език на решението."
+
+#, python-format
+msgid "Language %s not allowed in this contest."
+msgstr "Езикът %s не се допуска в това състезание."
+
+msgid "Invalid submission!"
+msgstr "Невалидно предадено решение!"
+
+msgid "Submission too big!"
+msgstr "Изпратеното решение е твърде голямо!"
+
+#, python-format
+msgid "Each source file must be at most %d bytes long."
+msgstr "Всеки файл с код трябва да бъде не по-голям от %d байта."
+
+msgid "Submission storage failed!"
+msgstr "Съхраняването на решението се провали!"
+
+msgid "Submission received"
+msgstr "Решението е получено"
+
+msgid "Your submission has been received and is currently being evaluated."
+msgstr "Вашето решение беше получено и се оценява в момента."
+
+msgid "Compiling..."
+msgstr "Компилиране..."
+
+msgid "details"
+msgstr "детайли"
+
+msgid "Evaluating..."
+msgstr "Тестване..."
+
+msgid "Scoring..."
+msgstr "Оценяване..."
+
+msgid "Evaluated"
+msgstr "Оценено"
+
+msgid "Token request discarded"
+msgstr "Заявката за жетон е отхвърлена"
+
+msgid "Your request has been discarded because you have no tokens available."
+msgstr "Вашата заявка за жетон беше отхвърлена, защото нямате налични жетони."
+
+msgid ""
+"Your request has been discarded because you already used a token on that "
+"submission."
+msgstr "Вашата заявка беше отхвърлена, защото вие вече сте използвали жетон на това решение."
+
+msgid "Token request received"
+msgstr "Заявката за жетон е получена"
+
+msgid "Your request has been received and applied to the submission."
+msgstr "Вашата заявка беше получена и приложена върху решението."
+
+#, python-format
+msgid "You have reached the maximum limit of at most %d tests among all tasks."
+msgstr "Достигнахте максималния лимит от най-много %d теста по всички задачи."
+
+#, python-format
+msgid "You have reached the maximum limit of at most %d tests on this task."
+msgstr "Достигнахте максималния лимит от най-много %d теста по тази задача."
+
+msgid "Too many tests!"
+msgstr "Твърде много тестове!"
+
+#, python-format
+msgid "Among all tasks, you can test again after %d seconds from last test."
+msgstr "Относно всички задачи, вие можете да направите тест отново, %d секунди след последния тест."
+
+#, python-format
+msgid "For this task, you can test again after %d seconds from last test."
+msgstr "Относно тази задача, вие можете да направите тест отново, %d секунди след последния тест."
+
+msgid "Tests too frequent!"
+msgstr "Твърде често тестване!"
+
+msgid "Invalid test format!"
+msgstr "Невалиден формат на теста!"
+
+msgid "Cannot recognize test's language."
+msgstr "Езикът на програмата за тестване не може да бъде разпознат."
+
+msgid "Invalid test!"
+msgstr "Невалиден тест!"
+
+msgid "Test too big!"
+msgstr "Програмата за тестване е твърде голяма!"
+
+msgid "Input too big!"
+msgstr "Тестовият пример е твърде голям!"
+
+#, python-format
+msgid "The input file must be at most %d bytes long."
+msgstr "Входният файл трябва да бъде не по-голям от %d байта."
+
+msgid "Test storage failed!"
+msgstr "Съхраняването на теста се провали!"
+
+msgid "Test received"
+msgstr "Тестът е получен"
+
+msgid "Your test has been received and is currently being executed."
+msgstr "Вашият тест беше получен и се изпълнява в момента."
+
+msgid "Executing..."
+msgstr "Изпълняване..."
+
+msgid "Executed"
+msgstr "Изпълнено"
+
+#, python-brace-format
+msgid "{seconds:0.3f} s"
 msgstr ""
+
+msgid "Communication"
+msgstr "Комуникация"
+
+msgid "Announcements"
+msgstr "Обявления"
+
+msgid "(no subject)"
+msgstr "(няма тема)"
+
+msgid "Questions"
+msgstr "Въпроси"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Ask question"
+msgstr "Задай въпрос"
+
+msgid "Reset"
+msgstr "Изчисти"
+
+msgid "no answer yet"
+msgstr "все още няма отговор"
+
+msgid "Messages"
+msgstr "Съобщения"
 
 #, python-format
 msgid "Automatic (%s)"
 msgstr "Автоматично (%s)"
 
+msgid "Logout"
+msgstr "Изход"
+
 #, python-format
 msgid ""
 "Logged in as <strong>%(first_name)s %(last_name)s</strong> "
 "<em>(%(username)s)</em>"
-msgstr ""
-"Влязохте като <strong>%(first_name)s %(last_name)s</strong> "
-"<em>(%(username)s)</em>"
-
-msgid "Logout"
-msgstr "Изход"
+msgstr "Влязохте като <strong>%(first_name)s %(last_name)s</strong> <em>(%(username)s)</em>"
 
 msgid "Failed to log in."
-msgstr "Неуспешно влизате"
+msgstr "Неуспешно влизане."
 
 msgid "Welcome"
 msgstr "Здравейте"
@@ -541,9 +572,6 @@ msgstr "Парола"
 msgid "Login"
 msgstr "Вход"
 
-msgid "Reset"
-msgstr "Изчисти"
-
 msgid "New message"
 msgstr "Ново съобщение"
 
@@ -555,13 +583,19 @@ msgstr "Нов отговор"
 
 #, python-format
 msgid "%d unread"
-msgstr "%d непрочетени"
+msgstr "%d непрочетено/и"
 
 msgid "Until contest starts:"
-msgstr "До започване на състезанието:"
+msgstr "До началото на състезанието:"
 
 msgid "Until contest ends:"
-msgstr "До край на състезанието:"
+msgstr "До края на състезанието:"
+
+msgid "Until analysis starts:"
+msgstr "До началото на анализа:"
+
+msgid "Until analysis ends:"
+msgstr "До края на анализа:"
 
 msgid "Time left:"
 msgstr "Оставащо време:"
@@ -571,9 +605,6 @@ msgstr "Сървърно време:"
 
 msgid "Overview"
 msgstr "Преглед"
-
-msgid "Communication"
-msgstr "Комуникация"
 
 msgid "Statement"
 msgstr "Условие"
@@ -594,79 +625,57 @@ msgid "Contest Management System"
 msgstr ""
 
 msgid "is released under the"
-msgstr ""
+msgstr "се разпространява под"
 
 msgid "GNU Affero General Public License"
 msgstr ""
 
-msgid "Announcements"
-msgstr "Обявления"
-
-msgid "(no subject)"
-msgstr "(няма тема)"
-
-msgid "Questions"
-msgstr "Въпроси"
-
-msgid "Subject"
-msgstr "Тема"
-
-msgid "Text"
-msgstr "Текст"
-
-msgid "Ask question"
-msgstr "Задай въпрос"
-
-msgid "no answer yet"
-msgstr "няма отговор все още"
-
-msgid "Messages"
-msgstr "Съобщения"
+msgid "Programming languages and libraries"
+msgstr "Програмни езици и библиотеки"
 
 msgid "Standard Template Library"
-msgstr ""
+msgstr "Стандартна библиотека на C++"
 
-#, fuzzy
+msgid ""
+"The main Java class of the solution should have exactly the same name as the "
+"task."
+msgstr "Главният клас в решенията на джава трябва да има същото име като задачата."
+
 msgid "Submission details for compilation"
-msgstr "Детайли на решенията"
+msgstr "Детайли по компилацията на решението"
 
-#, fuzzy
 msgid "Message"
-msgstr "Съобщения"
+msgstr "Съобщение"
 
 msgid "Explanation"
-msgstr ""
+msgstr "Обяснение"
 
-#, fuzzy
 msgid "Submission details for evaluation"
-msgstr "Детайли на решенията"
+msgstr "Детайли по оценяването на решението"
 
 #, python-format
 msgid "Error %d"
 msgstr "Грешка %d"
 
 msgid "An error occured while the server was handling your request."
-msgstr "Възникна грешка докато сървърът се опитваше да обработи вашата заявка"
+msgstr "Възникна грешка, докато сървърът се опитваше да обработи вашата заявка."
 
 msgid ""
 "Note that attempts to tamper with Contest Management System (such as probing "
 "the server with customized URLs) may be considered cheating and may lead to "
 "disqualification."
-msgstr ""
-"Отбележете, че опити да нарушавате работата на системата за състезанието "
-"като да изпращате нестандартни заявки) може да бъде считано за измама и да "
-"доведе до дисквалификация."
+msgstr "Отбележете, че опити за нарушаване работата на състезателната система (например изпращане нестандартни заявки) може да бъде счетено за измама и да доведе до дисквалификация."
 
 msgid ""
 "If you encountered this error during normal usage, please notify the contest "
 "administrators."
-msgstr ""
+msgstr "Ако сте срещнали тази грешка повреме на обичайни действия, моля уведомете системните администратори."
 
 msgid "General information"
 msgstr "Основна информация"
 
 msgid "The contest hasn't started yet."
-msgstr "Състезанието не е започнало още"
+msgstr "Състезанието не е започнало още."
 
 #, python-format
 msgid "The contest will start at %(start_time)s and will end at %(stop_time)s."
@@ -680,92 +689,114 @@ msgid "The contest started at %(start_time)s and will end at %(stop_time)s."
 msgstr "Състезанието започна в %(start_time)s и ще завърши в %(stop_time)s."
 
 msgid "The contest has already ended."
-msgstr "Състезанието вече завърши."
+msgstr "Състезанието вече приключи."
 
 #, python-format
 msgid "The contest started at %(start_time)s and ended at %(stop_time)s."
 msgstr "Състезанието започна в %(start_time)s и завърши в %(stop_time)s."
 
+msgid "The analysis mode hasn't started yet."
+msgstr "Анализът не е започнал още"
+
+#, python-format
+msgid ""
+"The analysis mode will start at %(start_time)s and will end at %(stop_time)s."
+msgstr "Анализът ще започне в %(start_time)s и ще завърши в %(stop_time)s."
+
+msgid "The analysis mode is currently running."
+msgstr "Анализът в момента тече."
+
+#, python-format
+msgid ""
+"The analysis mode started at %(start_time)s and will end at %(stop_time)s."
+msgstr "Анализът започна в %(start_time)s и ще завърши в %(stop_time)s."
+
+msgid "The analysis mode has already ended."
+msgstr "Анализът вече приключи."
+
+#, python-format
+msgid "The analysis mode started at %(start_time)s and ended at %(stop_time)s."
+msgstr "Анализът започна в %(start_time)s и завърши в %(stop_time)s."
+
 msgid "You have an infinite number of tokens."
 msgstr "Имате безкрайно количество жетони."
 
 msgid "You can see the detailed result of a submission by using a token on it."
-msgstr ""
+msgstr "Вие можете да видите подробни резултати от решението като използвате жетон върху него."
 
 msgid ""
 "Your score for each task will be the maximum among the tokened submissions "
 "and the last one."
-msgstr ""
+msgstr "Вашите точки за всяка задача ще бъдат максималните измежду решенията, върху които сте използвали жетон и последното изпратено решение."
 
 msgid "You have a distinct set of tokens for each task."
-msgstr ""
+msgstr "Вие имате отделен брой жетони за всяка задача."
 
 #, python-format
 msgid ""
 "You can find the rules for the %(type_pl)s on each task's description page."
-msgstr ""
+msgstr "Вие можете да намерите правилата за използване на %(type_pl)s на страницата с описанието на задачата."
 
 msgid "You have a set of tokens shared among all tasks."
-msgstr ""
+msgstr "Вие имате общ брой от жетони за всички задачи."
 
 msgid ""
 "You have two types of tokens: a set of <em>contest-tokens</em> shared among "
 "all tasks and a distinct set of <em>task-tokens</em> for each task."
-msgstr ""
+msgstr "Вие имате два вида жетони: някои от тях <em>жетони за цялото състезание</em> можете да използвате върху всички задачи и отделен брой <em>жетони за всяка задача</em>, които можете да използвате само върху съответната задача, за която са предназначени."
 
 msgid ""
 "You can see the detailed result of a submission by using two tokens on it, "
 "one of each type."
-msgstr ""
+msgstr "Вие можете да видите подробни резултати от решението, като използвате два жетона върху него, по един от всеки вид."
 
 #, python-format
 msgid "You can submit at most %(submissions)s solutions during this contest."
-msgstr ""
-"Можете да изпратите най-много %(submissions)s решения през това състезание."
+msgstr "Вие можете да изпратите най-много %(submissions)s решениe(я) повреме на това състезание."
 
 #, python-format
 msgid "You can submit at most %(user_tests)s user tests during this contest."
-msgstr ""
+msgstr "Вие можете да изпратите най-много %(user_tests)s тест(а) повреме на това състезание."
 
 #, python-format
 msgid ""
 "Every user is allowed to compete (i.e. submit solutions) for a uninterrupted "
 "time frame of %(per_user_time)s."
-msgstr ""
+msgstr "На всеки състезател е позволено да се състезава (да изпраща решения) за непрекъснат времеви интервал от %(per_user_time)s."
 
 msgid "As soon as the contest starts you can choose to start your time frame."
-msgstr ""
+msgstr "Когато състезанието започне, вие можете да изберете да започнете вашия интервал от време."
 
 msgid ""
 "Once you start, you can submit solutions until the end of the time frame or "
 "until the end of the contest, whatever comes first."
-msgstr ""
+msgstr "Когато започнете състезанието, вие можете да изпращате решения до края на вашия интервал от време или до края на състезанието, което се случи първо."
 
 msgid "By clicking on the button below you can start your time frame."
-msgstr ""
+msgstr "С кликването на бутона отдолу вие можете започнете вашия интервал от време."
 
 #, python-format
 msgid "You started your time frame at %(start_time)s."
-msgstr ""
+msgstr "Вие започнахте вашия интервал от време в %(start_time)s."
 
 msgid ""
 "You can submit solutions until the end of the time frame or until the end of "
 "the contest, whatever comes first."
-msgstr ""
+msgstr "Вие можете да изпращате решения до края на вашия интервал от време или до края на състезанието, което се случи първо."
 
 #, python-format
 msgid ""
 "You started your time frame at %(start_time)s and you already finished it."
-msgstr ""
+msgstr "Вие започнахте вашия интервал от време в %(start_time)s и той вече приключи."
 
 msgid "There's nothing you can do now."
-msgstr ""
+msgstr "Вие не можете да направите нищо в момента."
 
 msgid "You never started your time frame. Now it's too late."
-msgstr ""
+msgstr "Вие така и не започнахте вашия интервал от време. Сега е твърде късно."
 
 msgid "Start!"
-msgstr "Старт!"
+msgstr "Започни!"
 
 msgid "Task overview"
 msgstr "Преглед на задачите"
@@ -791,17 +822,17 @@ msgstr "Файлове"
 msgid "Tokens"
 msgstr "Жетони"
 
-#, python-format
+#, python-brace-format
 msgid "{seconds:g} second"
-msgstr "{seconds:g} секунди"
+msgstr "{seconds:g} секунда"
 
-#, python-format
+#, python-brace-format
 msgid "{seconds:g} seconds"
 msgstr "{seconds:g} секунди"
 
 #, python-format
 msgid "%(mb)d MiB"
-msgstr ""
+msgstr "%(mb)d МiB"
 
 msgid "Yes"
 msgstr "Да"
@@ -816,13 +847,13 @@ msgstr "Принтирай"
 msgid ""
 "You can print %(remaining_jobs)d more text or PDF files of up to "
 "%(max_pages)d pages each."
-msgstr ""
+msgstr "Вие можете да принтирате още %(remaining_jobs)d текстов(и) или PDF файл(ове) с най-много %(max_pages)d страница/и всеки."
 
 #, python-format
 msgid ""
 "You can print %(remaining_jobs)d more text files of up to %(max_pages)d "
 "pages each."
-msgstr ""
+msgstr "Вие можете да принтирате още %(remaining_jobs)d текстов(и) файл(oве) с най-много %(max_pages)d страница/и всеки."
 
 msgid "File (text or PDF)"
 msgstr "Файл (текстов или PDF)"
@@ -835,10 +866,10 @@ msgstr "Изпрати"
 
 msgid ""
 "You cannot print anything any more as you have used up your printing quota."
-msgstr ""
+msgstr "Вие не можете да принтирате нищо повече, защото вече сте изпозвали вашата квота за принтиране."
 
 msgid "Previous print jobs"
-msgstr ""
+msgstr "Предишни задачи за принтиране"
 
 msgid "Date and time"
 msgstr "Дата и час"
@@ -847,14 +878,13 @@ msgid "Time"
 msgstr "Време"
 
 msgid "File name"
-msgstr ""
+msgstr "Име на файла"
 
 msgid "Status"
 msgstr "Статус"
 
-#, fuzzy
 msgid "no print jobs yet"
-msgstr "няма отговор все още"
+msgstr "все още няма задачи за принтиране"
 
 msgid "Preparing..."
 msgstr "Подготовка..."
@@ -878,10 +908,10 @@ msgid "Standard error"
 msgstr "Стандартна грешка"
 
 msgid "None"
-msgstr ""
+msgstr "Нищо"
 
 msgid "Download"
-msgstr "Свали"
+msgstr "Изтегли"
 
 msgid "Played"
 msgstr "Изиграно"
@@ -893,7 +923,7 @@ msgid "Wait..."
 msgstr "Изчакай..."
 
 msgid "No tokens"
-msgstr ""
+msgstr "Няма жетони"
 
 #, python-format
 msgid "%(name)s (%(short_name)s) <small>description</small>"
@@ -903,20 +933,18 @@ msgid "no statement available"
 msgstr "няма налично условие"
 
 msgid "Download task statement"
-msgstr "Свали условието на задачата"
+msgstr "Изтегли условието на задачата"
 
 msgid ""
 "The statement for this task is available in multiple versions, in different "
 "languages."
-msgstr ""
-"Условието на тази задача е налично в множество версии, на различни езици."
+msgstr "Условието на тази задача е налично в множество версии на различни езици."
 
 msgid "You can see (and download) all of them using the list on the right."
-msgstr ""
-"Можете да видите (и свалите) всички от тях използвайки списъкът от дясно."
+msgstr "Вие можете да видите (и свалите) всяко от тях, използвайки списъка вдясно."
 
 msgid "Some suggested translations follow."
-msgstr ""
+msgstr "Следват някои препоръчани преводи."
 
 #, python-format
 msgid "Statement in <b>%s</b>"
@@ -942,14 +970,14 @@ msgstr "Команди за компилиране"
 
 #, python-format
 msgid ""
-"You can find the rules for the %(type_pl)s on the <a href=\"%(contest_root)s/"
+"You can find the rules for the %(type_pl)s on the <a href=\"%(contest_root)s"
 "\">contest overview page</a>."
-msgstr ""
+msgstr "Вие можете да намерите правилата за изпозване на %(type_pl)s на <a href=\"%(contest_root)s\">страницата с описанието на състезанието</a>."
 
 msgid ""
 "Remeber that to see the detailed result of a submission you need to use both "
 "a contest-token and a task-token."
-msgstr ""
+msgstr "Не забравяйте, че за да видите подробните резултати от решението, вие трябва да изпозвате и от двата вида жетони - тези за цялото състезание и тези за конкретната задача."
 
 msgid "Attachments"
 msgstr "Прикачени файлове"
@@ -963,7 +991,7 @@ msgstr "Предай решение"
 
 #, python-format
 msgid "You can submit %(submissions_left)s more solution(s)."
-msgstr "Можете да предадете още %(submissions_left)s решения."
+msgstr "Вие можете да предадете още %(submissions_left)s решениe(я)."
 
 msgid "submission.zip"
 msgstr ""
@@ -972,50 +1000,53 @@ msgid "Previous submissions"
 msgstr "Предишни решения"
 
 msgid "Right now, you have infinite tokens available on this task."
-msgstr ""
+msgstr "Сега, вие имате неограничен брой налични жетони за тази задача."
 
 msgid "Right now, you have one token available on this task."
-msgstr ""
+msgstr "Сега, вие имате един наличен жетон за тази задача."
 
 #, python-format
 msgid "Right now, you have %(tokens)s tokens available on this task."
-msgstr ""
+msgstr "Сега, вие имате %(tokens)s налични жетона за тази задача."
 
 #, python-format
 msgid "But you have to wait until %(expiration_time)s to use them."
-msgstr ""
+msgstr "Вие трябва да изчакате до %(expiration_time)s, за да ги изпозвате."
 
 #, python-format
 msgid "You will receive a new token at %(gen_time)s."
-msgstr ""
+msgstr "Вие ще получите нов жетон в %(gen_time)s"
 
 msgid "In the current situation, no more tokens will be generated."
-msgstr ""
+msgstr "В тази ситуация, няма да бъдат генерирани повече жетони."
 
 msgid "Right now, you do not have tokens available for this task."
-msgstr ""
+msgstr "Сега, вие нямате налични жетони за тази задача."
 
 #, python-format
 msgid "But you will have to wait until %(expiration_time)s to use it."
-msgstr ""
+msgstr "Вие трябва да изчакате до %(expiration_time)s, за да го изпозвате."
 
 msgid "Public score"
 msgstr "Публичен резултат"
 
 msgid "Total score"
-msgstr "Общ резултат"
+msgstr "Финален резултат"
 
 msgid "Score"
 msgstr "Резултат"
+
+msgid "Official"
+msgstr "Официално"
 
 msgid "Token"
 msgstr "Жетон"
 
 msgid "no submissions yet"
-msgstr "няма предадени решения още"
+msgstr "все още няма предадени решения"
 
 msgid "Submission details"
-msgstr "Детайли на решенията"
+msgstr "Детайли на решениeто"
 
 msgid "Close"
 msgstr "Затвори"
@@ -1025,7 +1056,7 @@ msgstr "Изпрати тест"
 
 #, python-format
 msgid "You can submit %(user_tests_left)s more test(s)."
-msgstr ""
+msgstr "Вие можете да изпратите още %(user_tests_left)s тест(а)."
 
 msgid "input"
 msgstr "вход"
